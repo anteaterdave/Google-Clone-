@@ -3,53 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <title>Google homepage</title>
-        <link rel="stylesheet" href="index.css"> <!--Unsure how to create a file I can href to-->
+        <link rel="stylesheet" href="index.css"> 
     </head>
     <body>
-        <h1>Google</h1> <!--Must find correct font-family-->
-        <form>
-            <fieldset id="center-fieldset"> <!--Strong base, need to implement CSS-->
-            <div class="text-area">
-                <input type="textarea" id="search bar" rows="5" cols="1" required placeholder="Search">
-            <label for="search bar"></label>
-            </div>
-            <div class="buttons">
-            <input type="button" id="Search" name="buttons" value="Search">
-            <label for="Search"></label>
-            <input type="button" id="I'm feeling lucky" name="buttons" value="I'm feeling lucky">
-            <label for="I'm feeling lucky"></label>
-            </div>
-            </fieldset>
-        </form>
-        <fieldset id="top-fieldset"> <!--Top bar simulation-->
-        <div class="top">
-            <input type="button" id="about" name="top-bottom" value="About">
-            <input type="button" id="store" name="top-bottom" value="Store">
-            <input type="button" id="images" name="top-bottom" value="Images">
-            <!--Dropdown impending-->
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown</button>
-                <div class="dropdown-content">
-                    <a href="link 1">link 1</a>
-                    <a href="link 2">link 2</a>
-                    <a href="link 3">link 3</a>
-                    <a href="link 4">link 4</a>
-                    <a href="link 5">link 5</a>
-                    <a href="link 6">link 6</a>
-                </div>
-            </div>
-        </div>
-        </fieldset> 
-        <fieldset id="bottom-fieldset"> <!--Bottom bar simulation-->
-        <div class="bottom">
-            <input type="button" id="advertising" name="top-bottom" value="Advertising">
-            <input type="button" id="business" name="top-bottom" value="Business">
-            <input type="button" id="how search works" name="top-bottom" value="How Search Works">
-            <input type="button" id="carbon nuetral since" name="top-bottom" value="Carbon nuetral since 2007">
-            <input type="button" id="privacy" name="top-bottom" value="Privacy">
-            <input type="button" id="terms" name="top-bottom" value="Terms">
-            <input type="button" id="settings" name="top-bottom" value="Settings">
-        </div>
-        </fieldset>
+      <fieldset class="top"> <!--Need to specify names of buttons, also need to make each button look like plain text-->
+        <a style="text-decoration: none" href="https://about.google/" target="_blank">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://store.google.com/US/" >Store</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://mail.google.com/" >Gmail</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://images.google.com/" >Images</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      </fieldset>
+      <fieldset class="center"> <!--Struggling to approach the image file, but I believe its more fear than inability-->
+        <img src="googleimage.jpeg" alt="Google Logo" id="googleimage1"><br>
+        <input type="text" required class="searchbar"><br>
+            <button class="buttons">Submit</button>
+            <button class="buttons">I'm Feeling Lucky</button>
+      </fieldset>
+      <fieldset class="bottom">
+        <a style="text-decoration: none" href="https://ads.google.com/" >Advertising</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://smallbusiness.withgoogle.com/">Business</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://www.google.com/search/howsearchworks/">How Search works</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://sustainability.google/carbon-free/">Carbon neutral since 2007</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://policies.google.com/privacy">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://policies.google.com/terms">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none" href="https://www.google.com/preferences">Settings</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      </fieldset>
     </body>
 </html>
