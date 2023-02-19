@@ -1,0 +1,33 @@
+body{
+    display:block;
+}
+#image {
+    height: 30%;
+    width: 30%;
+}
+.top {
+border:none;
+height: 10%;
+width: 100%;
+font-family: arial, sans-serif;
+text-decoration: none;
+}
+
+
+.center {
+border:none;
+height: 80%;
+width: 100%;
+font-family: arial, sans-serif;
+text-decoration: none;
+}
+
+
+.bottom {
+border:none;
+height: 10%;
+width: 100%;
+background-color: rgb(242, 242, 242);
+font-family: arial, sans-serif;
+text-decoration: none;
+}
