@@ -31,4 +31,8 @@ background-color: rgb(242, 242, 242);
 font-family: arial, sans-serif;
 text-decoration: none;
 }
-
+#searchbar {
+    height: 30px;
+    width: 80px;
+    border-radius: 15%;
+}
