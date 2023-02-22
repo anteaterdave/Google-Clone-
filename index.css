@@ -4,8 +4,17 @@ body{
 .googlelogo {
     height: 350px;
     width: 500px;
-    position: fixed bottom;
+    position: static;
     box-align: center;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-left: 90px
+}
+.logo {
+    padding-left: 140px;
+}
+.searchbox {
+    padding-left: 130px;
 }
 .top {
 border:none;
@@ -15,9 +24,9 @@ font-family: arial, sans-serif;
 font-size: small;
 text-decoration: none;
 position: fixed;
-bottom: 94%;
+bottom: 90%;
 padding-left: 50px;
-padding-top: 10px;
+padding-bottom: 10px;
 }
 
 
@@ -27,6 +36,7 @@ height: 50px;
 width: 100%;
 font-family: arial, sans-serif;
 text-decoration: none;
+padding-left: 100px;
 }
 
 
@@ -46,7 +56,18 @@ padding-top: 10px;
 }
 
 .buttons {
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 25px;
+    border-color: whitesmoke;
+    width: 150px;
+    height: 30px;
+}
+#lucky {
+margin-left: 50px;
+}
+#submit {
+margin-left: 300px;
 }
 /* IDs for Bottom class */
 #advertising {
@@ -106,6 +127,7 @@ padding-right: 20px;
 #about {
 padding-left: 20px;
 padding-right: 20px;
+padding-top: 100px;
 }
 #store {
 padding-left: 20px;
@@ -137,6 +159,7 @@ padding-right: 20px;
     width: 700px;
     border-radius: 15px;
     text-align: center;
+    border-color: whitesmoke;
 }
 #searchbar:hover {
 
