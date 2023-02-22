@@ -2,8 +2,8 @@ body{
     display:block;
 }
 .googlelogo {
-    height: 500px;
-    width: 700px;
+    height: 350px;
+    width: 500px;
     position: fixed bottom;
     box-align: center;
 }
@@ -12,10 +12,12 @@ border:none;
 height: 40px;
 width: 100%;
 font-family: arial, sans-serif;
+font-size: small;
 text-decoration: none;
 position: fixed;
-bottom: 91%;
-left: 0%;
+bottom: 94%;
+padding-left: 50px;
+padding-top: 10px;
 }
 
 
@@ -34,17 +36,108 @@ height: 40px;
 width: 100%;
 background-color: rgb(242, 242, 242);
 font-family: arial, sans-serif;
+font-size: small;
 text-decoration: none;
 position: fixed;
 top: 94%;
 left: 0%;
+padding-left: 50px;
+padding-top: 10px;
 }
+
+.buttons {
+    border-radius: 5px;
+}
+/* IDs for Bottom class */
+#advertising {
+padding-left: 5px;
+padding-right: 15px;
+    
+}
+
+#business {
+padding-left: 15px;
+padding-right: 15px;
+    
+}
+#howsearchworks {
+padding-left: 15px;
+padding-right: 15px;
+    
+}
+#carbon {
+padding-left: 175px;
+}
+#privacy {
+padding-left: 230px;
+padding-right: 20px;
+}
+#terms {
+padding-left: 20px;
+padding-right: 20px;
+}
+#settings {
+padding-left: 20px;
+padding-right: 20px;
+}
+#advertising:hover {
+
+}
+
+#business:hover {
+
+}
+#howsearchworks:hover {
+
+}
+#carbon:hover {
+
+}
+#privacy:hover {
+
+}
+#terms:hover {
+
+}
+#settings:hover {
+
+}
+/* IDs for top class */
+#about {
+padding-left: 20px;
+padding-right: 20px;
+}
+#store {
+padding-left: 20px;
+padding-right: 20px;
+}
+#gmail {
+padding-left: 800px;
+padding-right: 20px;
+}
+#images {
+padding-left: 20px;
+padding-right: 20px;
+}
+#about:hover {
+
+}
+#store:hover {
+
+}
+#gmail:hover {
+
+}
+#images:hover {
+
+}
+/* IDs for center class */
 #searchbar {
     height: 30px;
     width: 700px;
     border-radius: 15px;
     text-align: center;
 }
-.buttons {
-    border-radius: 5px;
+#searchbar:hover {
+
 }
