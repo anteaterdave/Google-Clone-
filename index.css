@@ -1,22 +1,27 @@
 body{
     display:block;
 }
-#image {
-    height: 30%;
-    width: 30%;
+.googlelogo {
+    height: 500px;
+    width: 700px;
+    position: fixed bottom;
+    box-align: center;
 }
 .top {
 border:none;
-height: 10%;
+height: 40px;
 width: 100%;
 font-family: arial, sans-serif;
 text-decoration: none;
+position: fixed;
+bottom: 91%;
+left: 0%;
 }
 
 
 .center {
 border:none;
-height: 80%;
+height: 50px;
 width: 100%;
 font-family: arial, sans-serif;
 text-decoration: none;
@@ -25,14 +30,21 @@ text-decoration: none;
 
 .bottom {
 border:none;
-height: 10%;
+height: 40px;
 width: 100%;
 background-color: rgb(242, 242, 242);
 font-family: arial, sans-serif;
 text-decoration: none;
+position: fixed;
+top: 94%;
+left: 0%;
 }
 #searchbar {
     height: 30px;
-    width: 80px;
-    border-radius: 15%;
+    width: 700px;
+    border-radius: 15px;
+    text-align: center;
+}
+.buttons {
+    border-radius: 5px;
 }
