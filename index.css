@@ -102,7 +102,7 @@ padding-left: 20px;
 padding-right: 20px;
 }
 #advertising:hover {
-
+text-decoration:  #b8b8b8;
 }
 
 #business:hover {
@@ -162,5 +162,11 @@ padding-right: 20px;
     border-color: whitesmoke;
 }
 #searchbar:hover {
-
+background-color: #e0e0e0;
+}
+#submit:hover {
+background-color: #e0e0e0;
+}
+#lucky:hover {
+background-color: #e0e0e0;
 }
